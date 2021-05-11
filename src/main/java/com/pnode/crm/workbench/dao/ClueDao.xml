@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pnode.crm.workbench.dao.ClueDao">
+
+
+
+    <update id="update">
+
+        update tbl_clue set
+
+        owner=#{owner},
+        fullname=#{fullname},
+        appellation=#{appellation},
+        company=#{company},
+        job=#{job},
+        email=#{email},
+        phone=#{phone},
+        website=#{website},
+        mphone=#{mphone},
+        state=#{state},
+        source=#{source},
+        editTime=#{editTime},
+        editBy=#{editBy},
+        description=#{description},
+        contactSummary=#{contactSummary},
+        nextContactTime=#{nextContactTime},
+        address=#{address}
+        where id=#{id}
+
+    </update>
+
+
+    <delete id="delete">
+
+        delete from tbl_clue where id=#{id}
+
+    </delete>
+
+
+    <delete id="deleteList">
+
+        delete from tbl_clue
+
+        where id in
+        <foreach collection="array" item="id" open="(" close=")" separator=",">
+
+            #{id}
+
+        </foreach>
+
+
+    </delete>
+
+
+
+    <select id="getById" resultType="Clue">
+
+        select * from tbl_clue where id=#{id}
+
+    </select>
+
+    <select id="detail" resultType="Clue">
+
+        select
+
+        c.id,
+        c.fullname,
+        c.appellation,
+        u.name as owner,
+        c.company,
+        c.job,
+        c.email,
+        c.phone,
+        c.website,
+        c.mphone,
+        c.state,
+        c.source,
+        c.createBy,
+        c.createTime,
+        c.editBy,
+        c.editTime,
+        c.description,
+        c.contactSummary,
+        c.nextContactTime,
+        c.address
+
+
+        from tbl_clue c
+        join tbl_user u
+        on c.owner=u.id
+
+        where c.id=#{id}
+
+
+    </select>
+
+	<insert id="save">
+
+        insert into tbl_clue(
+
+            id,
+            fullname,
+            appellation,
+            owner,
+            company,
+            job,
+            email,
+            phone,
+            website,
+            mphone,
+            state,
+            source,
+            createBy,
+            createTime,
+            description,
+            contactSummary,
+            nextContactTime,
+            address
+
+
+        )
+
+        values(
+
+
+            #{id},
+            #{fullname},
+            #{appellation},
+            #{owner},
+            #{company},
+            #{job},
+            #{email},
+            #{phone},
+            #{website},
+            #{mphone},
+            #{state},
+            #{source},
+            #{createBy},
+            #{createTime},
+            #{description},
+            #{contactSummary},
+            #{nextContactTime},
+            #{address}
+
+        )
+
+
+
+
+    </insert>
+
+    <select id="getTotalByCondition" resultType="int">
+
+        select count(*)
+
+        from tbl_clue a
+        join tbl_user u
+        on a.owner=u.id
+
+        <where>
+
+            <if test="fullname!=null and fullname!=''">
+
+                a.fullname like '%' #{fullname} '%'
+
+            </if>
+
+            <if test="owner!=null and owner!=''">
+
+                and u.name like '%' #{owner} '%'
+
+            </if>
+
+            <if test="company!=null and company!=''">
+
+                and a.company = #{company}
+
+            </if>
+
+            <if test="source!=null and source!=''">
+
+                and a.source = #{source}
+
+            </if>
+
+            <if test="state!=null and state!=''">
+
+                and a.state = #{state}
+
+            </if>
+
+        </where>
+
+
+    </select>
+
+    <select id="getClueListByCondition" resultType="Clue">
+
+        select
+
+        a.id,
+        a.fullname,
+        u.name as owner,
+        a.company,
+        a.source,
+        a.state
+
+        from tbl_clue a
+        join tbl_user u
+        on a.owner=u.id
+
+        <where>
+
+            <if test="fullname!=null and fullname!=''">
+
+                a.fullname like '%' #{fullname} '%'
+
+            </if>
+
+            <if test="owner!=null and owner!=''">
+
+                and u.name like '%' #{owner} '%'
+
+            </if>
+
+            <if test="company!=null and company!=''">
+
+                and a.company = #{company}
+
+            </if>
+
+            <if test="source!=null and source!=''">
+
+                and a.source = #{source}
+
+            </if>
+
+            <if test="state!=null and state!=''">
+
+                and a.state = #{state}
+
+            </if>
+
+        </where>
+
+        order by a.createTime desc
+
+        limit #{skipCount},#{pageSize}
+
+
+    </select>
+
+    <select id="getContactsTotalByCondition" resultType="int">
+
+        select count(*)
+
+        from tbl_contacts a
+        join tbl_user u
+        on a.owner=u.id
+
+        <where>
+
+            <if test="name!=null and name!=''">
+
+                a.fullname like '%' #{name} '%'
+
+            </if>
+
+            <if test="owner!=null and owner!=''">
+
+                and u.name like '%' #{owner} '%'
+
+            </if>
+
+            <if test="custname!=null and custname!=''">
+
+                and a.customerId  in (select  cu.id from tbl_customer cu where cu.name like '%' #{custname} '%')
+
+            </if>
+
+            <if test="source!=null and source!=''">
+
+                and a.source = #{source}
+
+            </if>
+
+
+
+        </where>
+
+
+    </select>
+
+    <select id="getContactsListByCondition" resultType="Contacts">
+
+        select
+
+        a.id,
+        a.fullname,
+        u.name as owner,
+        a.source,
+        a.birth,
+        cus.name as customerId
+
+        from tbl_contacts a
+        join tbl_user u
+        on a.owner=u.id
+        join tbl_customer cus
+        on a.customerId=cus.id
+
+        <where>
+
+            <if test="name!=null and name!=''">
+
+                a.fullname like '%' #{name} '%'
+
+            </if>
+
+            <if test="owner!=null and owner!=''">
+
+                and u.name like '%' #{owner} '%'
+
+            </if>
+
+            <if test="custname!=null and custname!=''">
+
+                and a.customerId  in (select  cu.id from tbl_customer cu where cu.name like '%' #{custname} '%')
+
+            </if>
+
+            <if test="source!=null and source!=''">
+
+                and a.source = #{source}
+
+            </if>
+
+        </where>
+
+        order by a.createTime desc
+
+        limit #{skipCount},#{pageSize}
+
+
+    </select>
+    <insert id="contactsave">
+
+        insert into tbl_contacts(
+
+            id,
+            fullname,
+            appellation,
+            owner,
+            job,
+            email,
+            mphone,
+            source,
+            createBy,
+            createTime,
+            nextContactTime,
+            address,
+            birth,
+            customerId
+
+
+        )
+
+        values(
+
+
+            #{id},
+            #{fullname},
+            #{appellation},
+            #{owner},
+            #{job},
+            #{email},
+            #{mphone},
+            #{source},
+            #{createBy},
+            #{createTime},
+            #{nextContactTime},
+            #{address},
+            #{birth},
+            #{customerId}
+
+        )
+
+
+
+
+    </insert>
+
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

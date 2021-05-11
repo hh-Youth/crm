@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="crm:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8bd9afe-d1b0-49b4-8d11-c10966952d13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/crm_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/crm_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_1_2_b05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1_3_b06.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_servlet_3_0_b70.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/exception/LoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/dao/DicTypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/dao/DicTypeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/dao/DicValueDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/dao/DicValueDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/domain/Admit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/domain/DicType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/domain/DicValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/service/DicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/service/impl/DicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/settings/web/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/utils/DateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/utils/PrintJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/utils/ServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/utils/SqlSessionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/utils/TransactionInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/utils/UUIDUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/vo/PaginationVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/web/filter/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/web/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/web/listener/SysInitListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/ActivityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/ActivityDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/ActivityRemarkDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/ActivityRemarkDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/ClueActivityRelationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/ClueActivityRelationDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/ClueDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/ClueDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/ContactsActivityRelationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/ContactsActivityRelationDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/ContactsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/ContactsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/CustomerDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/TranDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/TranDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/TranHistoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/dao/TranHistoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/domain/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/domain/ActivityRemark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/domain/Clue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/domain/ClueActivityRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/domain/Contacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/domain/ContactsActivityRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/domain/Tran.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/domain/TranHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/service/ActivityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/service/ClueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/service/TranService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/service/impl/ActivityServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/service/impl/ClueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/service/impl/TranServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/web/controller/ActivityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/web/controller/ClueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pnode/crm/workbench/web/controller/TranController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Stage2Possibility.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/IMG_7114.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/user-thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bootstrap-datetimepicker-master/locale/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bootstrap_3.3.0/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bootstrap_3.3.0/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bootstrap_3.3.0/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bootstrap_3.3.0/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bs_pagination/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bs_pagination/jquery.bs_pagination.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bs_pagination/jquery.bs_pagination.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/bs_typeahead/bootstrap3-typeahead.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/jquery-1.11.1-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/zTree_v3-master/js/jquery.ztree.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/settings/dept/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/settings/dictionary/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/settings/dictionary/type/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/settings/dictionary/type/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/settings/dictionary/type/save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/settings/dictionary/value/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/settings/dictionary/value/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/settings/dictionary/value/save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/settings/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/settings/qx/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/settings/qx/user/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/settings/qx/user/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/test1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/activity/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/activity/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/chart/activity/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/chart/clue/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/chart/customerAndContacts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/chart/transaction/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/clue/convert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/clue/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/clue/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/contacts/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/contacts/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/customer/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/customer/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/transaction/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/transaction/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/transaction/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/transaction/save.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/visit/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/visit/editTask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/visit/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/workbench/visit/saveTask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Stage2Possibility.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/exception/LoginException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/dao/DicTypeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/dao/DicTypeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/dao/DicValueDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/dao/DicValueDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/domain/Admit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/domain/DicType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/domain/DicValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/service/DicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/service/impl/DicServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/settings/web/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/utils/DateTimeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/utils/MD5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/utils/PrintJson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/utils/ServiceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/utils/SqlSessionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/utils/TransactionInvocationHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/utils/UUIDUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/vo/PaginationVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/web/filter/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/web/filter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/web/listener/SysInitListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/ActivityDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/ActivityDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/ActivityRemarkDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/ActivityRemarkDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/ClueActivityRelationDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/ClueActivityRelationDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/ClueDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/ClueDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/ContactsActivityRelationDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/ContactsActivityRelationDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/ContactsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/ContactsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/CustomerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/CustomerDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/TranDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/TranDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/TranHistoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/dao/TranHistoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/domain/Activity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/domain/ActivityRemark.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/domain/Clue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/domain/ClueActivityRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/domain/Contacts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/domain/ContactsActivityRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/domain/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/domain/Tran.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/domain/TranHistory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/service/ActivityService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/service/ClueService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/service/TranService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/service/impl/ActivityServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/service/impl/ClueServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/service/impl/TranServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/web/controller/ActivityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/web/controller/ClueController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pnode/crm/workbench/web/controller/TranController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/Stage2Possibility.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/exception/LoginException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/dao/DicTypeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/dao/DicTypeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/dao/DicValueDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/dao/DicValueDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/domain/Admit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/domain/DicType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/domain/DicValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/service/DicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/service/impl/DicServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/settings/web/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/utils/DateTimeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/utils/MD5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/utils/PrintJson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/utils/ServiceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/utils/SqlSessionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/utils/TransactionInvocationHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/utils/UUIDUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/vo/PaginationVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/web/filter/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/web/filter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/web/listener/SysInitListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/ActivityDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/ActivityDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/ActivityRemarkDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/ActivityRemarkDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/ClueActivityRelationDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/ClueActivityRelationDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/ClueDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/ClueDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/ContactsActivityRelationDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/ContactsActivityRelationDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/ContactsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/ContactsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/CustomerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/CustomerDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/TranDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/TranDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/TranHistoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/dao/TranHistoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/domain/Activity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/domain/ActivityRemark.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/domain/Clue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/domain/ClueActivityRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/domain/Contacts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/domain/ContactsActivityRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/domain/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/domain/Tran.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/domain/TranHistory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/service/ActivityService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/service/ClueService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/service/TranService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/service/impl/ActivityServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/service/impl/ClueServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/service/impl/TranServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/web/controller/ActivityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/web/controller/ClueController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/com/pnode/crm/workbench/web/controller/TranController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/image/IMG_7114.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/image/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/image/user-thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bootstrap-datetimepicker-master/locale/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bootstrap_3.3.0/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bootstrap_3.3.0/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bootstrap_3.3.0/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bootstrap_3.3.0/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bs_pagination/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bs_pagination/jquery.bs_pagination.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bs_pagination/jquery.bs_pagination.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/bs_typeahead/bootstrap3-typeahead.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/jquery-1.11.1-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/jquery/zTree_v3-master/js/jquery.ztree.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/settings/dept/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/settings/dictionary/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/settings/dictionary/type/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/settings/dictionary/type/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/settings/dictionary/type/save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/settings/dictionary/value/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/settings/dictionary/value/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/settings/dictionary/value/save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/settings/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/settings/qx/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/settings/qx/user/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/settings/qx/user/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/test1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/activity/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/activity/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/chart/activity/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/chart/clue/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/chart/customerAndContacts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/chart/transaction/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/clue/convert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/clue/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/clue/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/contacts/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/contacts/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/customer/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/customer/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/transaction/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/transaction/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/transaction/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/transaction/save.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/visit/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/visit/editTask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/visit/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/crm-1.0-SNAPSHOT/workbench/visit/saveTask.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\IDEA\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qK0IYgJYpmrGJucrUXAouynasS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pnode.crm.workbench.web.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA_product\crm\src\main\webapp\jquery" />
+      <recent name="D:\IDEA_product\crm\src\main\resources" />
+      <recent name="D:\IDEA_product\crm\src\main\java\com\pnode\crm\settings\web" />
+      <recent name="D:\IDEA_product\crm\src\main\java\com\pnode\crm\settings\service\impl" />
+      <recent name="D:\IDEA_product\crm\src\main\java\com\pnode\crm\settings\service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.4" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="crm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/crm" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_431_crm_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51361" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="crm:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="crm:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/crm" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_crm" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51361" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="crm:war exploded" />
+          <artifact name="crm:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8bd9afe-d1b0-49b4-8d11-c10966952d13" name="Default Changelist" comment="" />
+      <created>1616812896030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616812896030</updated>
+      <workItem from="1616812897086" duration="1725000" />
+      <workItem from="1616923206136" duration="26000" />
+      <workItem from="1616924089294" duration="73000" />
+      <workItem from="1616924185765" duration="37000" />
+      <workItem from="1616926582876" duration="228000" />
+      <workItem from="1616928689472" duration="588000" />
+      <workItem from="1616936442433" duration="132000" />
+      <workItem from="1617170847359" duration="8083000" />
+      <workItem from="1617237421688" duration="2464000" />
+      <workItem from="1617245746224" duration="162000" />
+      <workItem from="1617246023356" duration="546000" />
+      <workItem from="1617248045086" duration="11000" />
+      <workItem from="1617275601936" duration="445000" />
+      <workItem from="1617276091812" duration="911000" />
+      <workItem from="1617805841652" duration="2216000" />
+      <workItem from="1617842941887" duration="11000" />
+      <workItem from="1618446356449" duration="641000" />
+      <workItem from="1618971596158" duration="2216000" />
+      <workItem from="1618973872177" duration="1942000" />
+      <workItem from="1618976124988" duration="597000" />
+      <workItem from="1619009090227" duration="5344000" />
+      <workItem from="1619015070668" duration="2549000" />
+      <workItem from="1619063308289" duration="5329000" />
+      <workItem from="1619087606931" duration="1263000" />
+      <workItem from="1619089041620" duration="384000" />
+      <workItem from="1619089463722" duration="1932000" />
+      <workItem from="1619091566069" duration="293000" />
+      <workItem from="1619092061225" duration="585000" />
+      <workItem from="1619092672802" duration="13211000" />
+      <workItem from="1619144591904" duration="3988000" />
+      <workItem from="1619158023668" duration="1335000" />
+      <workItem from="1619159887328" duration="2134000" />
+      <workItem from="1619162599361" duration="6488000" />
+      <workItem from="1619169954862" duration="11178000" />
+      <workItem from="1619246549850" duration="16111000" />
+      <workItem from="1619278485204" duration="8718000" />
+      <workItem from="1619321186751" duration="6928000" />
+      <workItem from="1619344154373" duration="15000" />
+      <workItem from="1619344252228" duration="10000" />
+      <workItem from="1619344381594" duration="4000" />
+      <workItem from="1619344800583" duration="170000" />
+      <workItem from="1619348411929" duration="24000" />
+      <workItem from="1619348550818" duration="37000" />
+      <workItem from="1619348698027" duration="35000" />
+      <workItem from="1619348896508" duration="14000" />
+      <workItem from="1619350920446" duration="125000" />
+      <workItem from="1619351105822" duration="927000" />
+      <workItem from="1619352266883" duration="352000" />
+      <workItem from="1619352643274" duration="561000" />
+      <workItem from="1619353288618" duration="1047000" />
+      <workItem from="1619355954082" duration="230000" />
+      <workItem from="1619356275870" duration="1669000" />
+      <workItem from="1619359474882" duration="114000" />
+      <workItem from="1619360601840" duration="303000" />
+      <workItem from="1619365926134" duration="235000" />
+      <workItem from="1619410975367" duration="85000" />
+      <workItem from="1619411339338" duration="5820000" />
+      <workItem from="1619429800217" duration="16213000" />
+      <workItem from="1619452568792" duration="8000" />
+      <workItem from="1619454417632" duration="7000" />
+      <workItem from="1619482354280" duration="32645000" />
+      <workItem from="1619569009599" duration="12770000" />
+      <workItem from="1619603755001" duration="2652000" />
+      <workItem from="1619610069814" duration="13077000" />
+      <workItem from="1619655421534" duration="31874000" />
+      <workItem from="1619760290314" duration="16674000" />
+      <workItem from="1620260966338" duration="10265000" />
+      <workItem from="1620279558284" duration="24549000" />
+      <workItem from="1620363691882" duration="31323000" />
+      <workItem from="1620694297156" duration="296000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="91" key="#Inspections" timestamp="1619156596073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1619156596073" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1618972297530">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1618972297530" />
+    <state x="542" y="308" key="#Tomcat_Server" timestamp="1616926609849">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="542" y="308" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1616926609849" />
+    <state x="257" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619353657392">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="257" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1619353657392" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1620394241722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1620394241722" />
+    <state x="486" y="62" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1619353033098">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="486" y="62" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.824@0.0.1536.824" timestamp="1619353033098" />
+    <state x="392" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1619431017619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="392" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1619431017619" />
+    <state x="535" y="279" width="480" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619655668106">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="535" y="279" width="480" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1619655668106" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620263945909">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620263945909" />
+    <state x="427" y="167" key="FileChooserDialogImpl" timestamp="1620694571305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="427" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620694571305" />
+    <state x="640" y="310" key="Github.ShareDialog" timestamp="1620694516691">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="640" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1620694516691" />
+    <state width="1235" height="178" key="GridCell.Tab.0.bottom" timestamp="1620396853448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620396853448" />
+    <state width="1235" height="178" key="GridCell.Tab.0.center" timestamp="1620396853448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620396853448" />
+    <state width="1235" height="178" key="GridCell.Tab.0.left" timestamp="1620396853438">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620396853438" />
+    <state width="1235" height="178" key="GridCell.Tab.0.right" timestamp="1620396853448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620396853448" />
+    <state width="1235" height="178" key="GridCell.Tab.1.bottom" timestamp="1620396853448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="178" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620396853448" />
+    <state width="1235" height="178" key="GridCell.Tab.1.center" timestamp="1620396853448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="178" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1620396853448" />
+    <state width="1235" height="178" key="GridCell.Tab.1.left" timestamp="1620396853448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="178" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1620396853448" />
+    <state width="1235" height="178" key="GridCell.Tab.1.right" timestamp="1620396853448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="178" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620396853448" />
+    <state width="1235" height="178" key="GridCell.Tab.2.bottom" timestamp="1620396853448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="178" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620396853448" />
+    <state width="1235" height="178" key="GridCell.Tab.2.center" timestamp="1620396853448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="178" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1620396853448" />
+    <state width="1235" height="178" key="GridCell.Tab.2.left" timestamp="1620396853448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="178" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1620396853448" />
+    <state width="1235" height="178" key="GridCell.Tab.2.right" timestamp="1620396853448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="178" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1620396853448" />
+    <state width="1235" height="156" key="GridCell.Tab.3.bottom" timestamp="1620395414419">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="156" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620395414419" />
+    <state width="1235" height="156" key="GridCell.Tab.3.center" timestamp="1620395414419">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="156" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1620395414419" />
+    <state width="1235" height="156" key="GridCell.Tab.3.left" timestamp="1620395414419">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="156" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1620395414419" />
+    <state width="1235" height="156" key="GridCell.Tab.3.right" timestamp="1620395414419">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1235" height="156" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1620395414419" />
+    <state x="404" y="116" width="736" height="592" key="NewModule_or_Project.wizard" timestamp="1619357835016">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="404" y="116" width="736" height="592" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1619357835016" />
+    <state x="245" y="0" key="SettingsEditor" timestamp="1620694367475">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="245" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1620694367475" />
+    <state x="322" y="91" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619357383001">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="322" y="91" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1619357383001" />
+    <state x="178" y="22" key="new project wizard" timestamp="1619357809993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="22" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1619357809993" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1619710810793">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1619710810793" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1620396605151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620396605151" />
+  </component>
+</project>
